@@ -1,0 +1,57 @@
+    @import url('https: //fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+    html {
+        margin: 0;
+        padding-bottom: 800px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    img {
+        /* display: none; la imagen desaparece*/
+        /*visibility: hidden; la imagen desaparece, pero se deja el espacio donde va la misma*/
+    }
+    
+    .padre {
+        border: 1px solid black;
+        width: 50vw;
+        height: 50vh;
+        margin: auto;
+    }
+    
+    .relative {
+        background-color: lightblue;
+        width: 150px;
+        height: 150px;
+        position: relative;
+        top: 50px;
+        left: 30px;
+        /* bottom: 250px;
+     rigth: 50px;*/
+    }
+    
+    .absolute {
+        background-color: rgb(235, 70, 106);
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        /*top: 200px;*/
+    }
+    
+    .fixed {
+        background-color: rgb(142, 187, 17);
+        width: 150px;
+        height: 150px;
+        position: fixed;
+        top: 400px;
+        z-index: -55;
+    }
+    
+    .sticky {
+        background-color: rgb(187, 21, 137);
+        width: 150px;
+        height: 150px;
+        position: sticky;
+        top: 100px;
+    }
+    /*z-index lo colocamos
+    cuando tenemos elementos superpuestos
+    y se le coloca al que queramos que predomine*/

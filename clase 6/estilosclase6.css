@@ -1,0 +1,85 @@
+* {
+    margin: 2px;
+    color: blue;
+}
+
+span div img {
+    width: 15vw;
+    height: 20vh;
+}
+
+header {
+    background-color: aquamarine;
+}
+
+section {
+    background-color: pink;
+}
+
+article {
+    background-color: olivedrab;
+}
+
+footer {
+    background-color: orange;
+}
+
+
+/*Propiedades de Texto
+ */
+
+h1 {
+    letter-spacing: 2px;
+    /* acepta medidas absolutas, relativas y flexibles*/
+    text-align: center;
+    /* acepta lef| rigth| justify|center*/
+}
+
+.parrafo1 {
+    word-spacing: 5px;
+}
+
+.parrafo2 {
+    text-transform: uppercase;
+    /* acepta lowercase| capitalize*/
+}
+
+.parrafo3 {
+    background-color: violet;
+}
+
+h3 {
+    text-decoration: overline underline;
+    /* acepta underline| overline|overline underline*/
+    text-decoration-color: red;
+    text-decoration-style: double;
+    /* acepta solid|double*/
+}
+
+h4 {
+    text-shadow: 1px 2px#ff0000;
+}
+
+table {
+    border: 2px solid black;
+}
+
+td {
+    border-left: 2px dotted orange;
+    border-right: 2px solid green;
+    border-bottom: 2px double blue;
+    border-top: 2px solid pink;
+}
+
+button {
+    border-radius: 5px;
+    border: 1px solid red;
+}
+
+ol li {
+    list-style-type: upper-roman;
+}
+
+ul li {
+    list-style-type: circle;
+}

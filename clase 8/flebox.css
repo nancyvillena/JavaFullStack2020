@@ -1,0 +1,58 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+ html {
+     font-family: 'Montserrat', sans-serif;
+ }
+ 
+ .flex-container {
+     width: 50vw;
+     height: 50vh;
+     background-color: rgb(231, 166, 204);
+     display: flex;
+     flex-direction: row;
+     /* row es el valor por defecto y es de manera horizontal 
+            si queros un main vertical, podemos cambiarlo por "column" tambien podemos 
+            aplicar el row-reverse o column-reverse*/
+     justify-content: space-around;
+     /*self-position (center,end,start, left, rigth,flex-start, flex-end, self-start, self-end)
+            |space-around|space-between|space-evenly|stretch|
+            overflow-pos|
+            normal|baseline-position|*/
+     /*alinea los elemento en el eje principal*/
+ }
+ 
+ .flex-item {
+     width: 10vw;
+     height: 15vh;
+     background-color: rgb(201, 13, 13);
+ }
+ 
+ .flex-item2 {
+     width: 10vw;
+     height: 15vh;
+     background-color: rgb(132, 13, 201);
+ }
+ 
+ .flex-item3 {
+     width: 10vw;
+     height: 15vh;
+     background-color: rgb(25, 134, 15);
+ }
+ 
+ .flex-item4 {
+     width: 10vw;
+     height: 15vh;
+     background-color: rgb(240, 163, 20);
+ }
+ 
+ .flex-container2 {
+     width: 50vw;
+     height: 50vh;
+     background-color: rgb(75, 191, 245);
+     display: flex;
+     flex-direction: row;
+ }
+ 
+ .flex-item5 {
+     display: flex;
+     align-items: flex-start;
+ }

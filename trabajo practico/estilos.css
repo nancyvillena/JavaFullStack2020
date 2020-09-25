@@ -1,0 +1,119 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+ * {
+     font-family: 'Montserrat', sans-serif;
+ }
+ 
+ header {
+     /* height: 25vh;
+       display: flex;
+       align-items: center;
+      background-color: black;*/
+ }
+ 
+ span {
+     background-color: yellow;
+ }
+ 
+ ul li {
+     list-style: none;
+ }
+ 
+ h1,
+ h2 {
+     font-family: 'Montserrat', sans-serif;
+     text-align: center;
+ }
+ 
+ #imagenUno {
+     width: 18vw;
+     height: 35vh;
+     border-radius: 50%;
+     position: inherit;
+     justify-self: center;
+ }
+ 
+ div img {
+     width: 15vw;
+     height: 20vh;
+ }
+ 
+ table,
+ th,
+ td {
+     border: solid black 1px;
+     color: orange;
+ }
+ 
+ nav {
+     height: 10vh;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     /*  background-color: black;*/
+ }
+ 
+ ul {
+     list-style-type: none;
+     display: flex;
+     align-self: flex-start;
+ }
+ 
+ ul li {
+     margin: 0.5em;
+ }
+ 
+ a {
+     text-decoration: none;
+     color: rgb(14, 1, 1);
+     text-transform: uppercase;
+     font-size: 1em;
+ }
+ /**@import url("https://fonts.googleapis.com/css?family=Handlee");
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 13px;
+    background-color: #efefef;
+    padding: 10px;
+    margin: 0px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+ul li {
+    list-style: none;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#imagenUno {
+    width: 30vw;
+    height: 50vh;
+}
+
+div img {
+    width: 5vw;
+    height: 10vh;
+}
+
+table,
+th,
+td {
+    border: solid black 1px;
+    color: orange;
+}
+
+table,
+th,
+td {
+    border: solid red 2px;
+    color: green;
+}
+
+
+/*

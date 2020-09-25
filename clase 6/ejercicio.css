@@ -1,0 +1,24 @@
+     @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
+     * {
+         background-color: rgb(224, 224, 224, 0.5);
+         /*opacity: 0.5;*/
+         font-family: 'Noto Serif', serif;
+     }
+     
+     h1 {
+         text-align: center;
+         font-size: 3em;
+     }
+     
+     footer p {
+         text-align: center;
+     }
+     
+     input {
+         border-color: black;
+         background-color: RGB (202, 167, 245);
+     }
+     
+     .center {
+         text-align: center;
+     }

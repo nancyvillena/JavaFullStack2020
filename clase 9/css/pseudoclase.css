@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+* {
+    margin: 8px;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* ----- first-child y last-chid ----- */
+
+p:first-child {
+    background-color: violet;
+}
+
+p:last-child {
+    background-color: orange;
+}
+
+
+/* ----- nth-child() ----- */
+
+li:nth-child(5) {
+    color: violet;
+    font-weight: bold;
+}
+
+li:nth-child(3n) {
+    background-color: rgb(138, 182, 240);
+}
+
+li:nth-child(2n+1) {
+    color: tomato;
+}
+
+li:nth-child(even) {
+    color: green;
+}
+
+li:nth-child(odd) {
+    color: red;
+}
+
+
+/* ----- enlaces ----- */
+
+
+/*a:link {
+    text-decoration: none;
+    color: rgb(141, 13, 92);
+}
+
+a:active {
+    color: yellow;
+}
+
+a:hover {
+    background-color: rgb(22, 216, 22);
+}
+
+a:visited {
+    color:pink; ;
+}
+*/
+
+a {
+    text-decoration: none;
+}
+
+a .fab {
+    color: black;
+    font-size: 3rem;
+}
+
+.fa-youtube:hover {
+    color: red;
+}
+
+.fa-twitter:hover {
+    color: lightblue;
+}
+
+.fa-facebook-f:hover {
+    color: blue;
+}
+
+.fa-instagram-square:hover {
+    color: rgb(153, 13, 111);
+}
+
+.fa-github:hover {
+    color: rgb(0, 0, 8);
+}
